@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nico Lauría Peluquería y Barbería. Haircut & Shave. Cortes clásicos, modernos y arreglo de barba. Reserva tu turno online.">
+    <title>Nico Lauría | Haircut & Shave</title>
+
+    <!-- Google Fonts: Roboto y Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <!-- Logo como imagen y texto -->
+            <a href="#" class="logo" style="flex-direction: row; align-items: center; gap: 15px;">
+                <img src="logo.jpeg" alt="Logo Nico Lauría" class="nav-logo-img">
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <span>NICO <span>LAURÍA</span></span>
+                    <span class="logo-sub" style="letter-spacing: 2px;">HAIRCUT & SHAVE</span>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#resenas">Reseñas</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-section">
+            <!-- NOTA: Debes guardar tu imagen con el nombre 'logo.jpeg' en esta misma carpeta -->
+            <img src="logo.jpeg" alt="Logo Nico Lauría" class="main-hero-logo"
+                style="width: 250px; margin-bottom: 20px; filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.8));">
+            <h1>NICO <span>LAURÍA</span></h1>
+            <h2>CLASSIC STYLE & MODERN STYLE</h2>
+            <p>Excelencia en la atención y detalles. Una experiencia personalizada de calidad.</p>
+            <div class="hero-buttons">
+                <a href="https://laurianicolasagustin.turnos.app/" class="btn btn-primary" target="_blank"
+                    rel="noopener noreferrer">Reservar Turno</a>
+                <a href="https://www.instagram.com/nicolauria.barber/" class="btn btn-secondary" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i> Ir a Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="servicios section bg-dark" id="servicios">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Nuestros <span>Servicios</span></h2>
+            <div class="services-grid">
+
+                <!-- Servicio 1 -->
+                <a href="https://laurianicolasagustin.turnos.app/" target="_blank" rel="noopener noreferrer"
+                    class="service-link fade-in-section">
+                    <div class="service-card">
+                        <i class="fas fa-cut service-icon"></i>
+                        <h3>Corte de cabello</h3>
+                        <p>El estilo que mejor se adapta a tu rostro y personalidad.</p>
+                        <span class="price">$ 20.000</span>
+                    </div>
+                </a>
+
+                <!-- Servicio 2 -->
+                <a href="https://laurianicolasagustin.turnos.app/" target="_blank" rel="noopener noreferrer"
+                    class="service-link fade-in-section">
+                    <div class="service-card">
+                        <!-- Aplicamos decoloración y sepia para igualarlo al tema -->
+                        <span class="service-icon"
+                            style="font-style: normal; filter: grayscale(100%) brightness(1.7) sepia(100%) hue-rotate(5deg);">🪒</span>
+                        <h3>Afeitado clásico</h3>
+                        <p>Perfilado, recorte y afeitado tradicional con navaja.</p>
+                        <span class="price">$ 18.000</span>
+                    </div>
+                </a>
+
+                <!-- Servicio 3 -->
+                <a href="https://laurianicolasagustin.turnos.app/" target="_blank" rel="noopener noreferrer"
+                    class="service-link fade-in-section">
+                    <div class="service-card">
+                        <i class="fas fa-user-tie service-icon"></i>
+                        <h3>Corte + Afeitado clásico</h3>
+                        <p>La combinación perfecta para salir renovado e impecable.</p>
+                        <span class="price">$ 29.000</span>
+                    </div>
+                </a>
+
+                <!-- Servicio 4 -->
+                <a href="https://laurianicolasagustin.turnos.app/" target="_blank" rel="noopener noreferrer"
+                    class="service-link fade-in-section">
+                    <div class="service-card">
+                        <i class="fas fa-gem service-icon"></i>
+                        <h3>Corte + Afeitado + Detox</h3>
+                        <p>La experiencia definitiva. Corte, afeitado y limpieza facial Detox.</p>
+                        <span class="price">$ 37.000</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;" class="fade-in-section">
+                <a href="https://laurianicolasagustin.turnos.app/" class="btn btn-primary" target="_blank"
+                    rel="noopener noreferrer">Ver todos los servicios y reservar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria section" id="galeria">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Nuestros <span>Trabajos</span></h2>
+            <div class="gallery-grid">
+                <!-- Reel 1 -->
+                <div class="gallery-item fade-in-section reel-wrapper">
+                    <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/DUV30zGgDLd/" data-instgrm-version="14"
+                        style="background:#000; border:0; border-radius:3px; margin: 1px; padding:0; width:100%;">
+                    </blockquote>
+                </div>
+                <!-- Reel 2 -->
+                <div class="gallery-item fade-in-section reel-wrapper">
+                    <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/DRVVx5DDhhr/" data-instgrm-version="14"
+                        style="background:#000; border:0; border-radius:3px; margin: 1px; padding:0; width:100%;">
+                    </blockquote>
+                </div>
+                <!-- Reel 3 -->
+                <div class="gallery-item fade-in-section reel-wrapper">
+                    <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/DTIsRmtgFHG/" data-instgrm-version="14"
+                        style="background:#000; border:0; border-radius:3px; margin: 1px; padding:0; width:100%;">
+                    </blockquote>
+                </div>
+                <!-- Reel 4 -->
+                <div class="gallery-item fade-in-section reel-wrapper">
+                    <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/DNRP_9CP_xu/" data-instgrm-version="14"
+                        style="background:#000; border:0; border-radius:3px; margin: 1px; padding:0; width:100%;">
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseñas -->
+    <section class="resenas section bg-dark" id="resenas">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Lo que dicen <span>Nuestros Clientes</span></h2>
+            <div class="reviews-grid">
+
+                <!-- Reseña 1 -->
+                <div class="review-card fade-in-section">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Excelencia en la atención y detalles. Servicio totalmente dedicado al
+                        cliente y a que tenga una experiencia personalizada y de calidad. Ágil y sencillo de conseguir
+                        turno mediante el sistema."</p>
+                    <h4 class="reviewer-name">- Andres Arena</h4>
+                </div>
+
+                <!-- Reseña 2 -->
+                <div class="review-card fade-in-section">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Los chicos unos genios, excelente atención, siempre pendiente de la idea que
+                        uno tiene pero te asesoran con profesionalismo para llegar a ese corte de barba y cabello. El
+                        lugar súper agradable!"</p>
+                    <h4 class="reviewer-name">- Ricardo Arredondo</h4>
+                </div>
+
+                <!-- Reseña 3 -->
+                <div class="review-card fade-in-section">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"¡Excelente servicio! ¡La atención de los chicos es un 10! Soy cliente hace
+                        años. ¡Los súper recomiendo!"</p>
+                    <h4 class="reviewer-name">- Pablo Giacoi</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section class="ubicacion section" id="ubicacion">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Dónde <span>Encontrarnos</span></h2>
+            <div class="location-content fade-in-section">
+
+                <div class="location-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Dirección</h3>
+                    <!-- Dirección (sólo texto) -->
+                    <p style="color: var(--text-muted); line-height: 1.4;">
+                        Bv. Pellegrini 3125, S3000 Santa Fe de la Vera Cruz, Santa Fe
+                    </p>
+
+                    <h3 class="mt-4"><i class="fas fa-clock"></i> Horarios de Atención</h3>
+                    <ul>
+                        <li>Lunes: 11:00 - 20:00</li>
+                        <li>Martes a Sábado: 08:00 - 20:00</li>
+                        <li>Domingo: Cerrado</li>
+                    </ul>
+
+                    <h3 class="mt-4"><i class="fab fa-instagram"></i> Instagram</h3>
+                    <p>
+                        <a href="https://www.instagram.com/nicolauria.barber/" target="_blank" rel="noopener noreferrer"
+                            style="color: var(--primary-color);">
+                            @nicolauria.barber
+                        </a>
+                    </p>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.7761036323145!2d-60.71284342340277!3d-31.63424480983177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9227c54f5c1%3A0xeb1c8a397fa1b099!2sNicol%C3%A1s%20Laur%C3%ADa%20Peluqueria%20Y%20Barberia!5e0!3m2!1ses!2sar!4v1710000000000!5m2!1ses!2sar"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo" style="margin-bottom: 10px; display: inline-block;">
+                    NICO <span>LAURÍA</span>
+                    <span class="logo-sub" style="color: #666;">HAIRCUT & SHAVE</span>
+                </a>
+                <p>Tu estilo, nuestra pasión.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/nicolauria.barber/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://laurianicolasagustin.turnos.app/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Turnos"><i class="fas fa-calendar-check"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nico Lauría Peluquería y Barbería. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F5493426304505%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnP15eWdVY5oCq4f6cr62knXnLYtQ2B8lgPnH_6FLLnjRP_-4jcev87Ef0E5U_aem_CDq0bXhPqe7UHAhMJmB3nw&e=AT5zP4MoEe1udkvbEGKTQFThYNQ8CwyadmWyJv1QnGDMWqoJ2KSXN5O1LaFUPZDEOhYCJ1p4Zg_YP4LhCUJjuBBiYxHiiWhpA3pbUA6HOg"
+        class="float-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="z-index: 9999;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Script de Instagram para embeber los reels -->
+    <script async src="https://www.instagram.com/embed.js"></script>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+</body>
+
+</html>
